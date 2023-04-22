@@ -1,0 +1,12 @@
+../Core/Src/fdd_data.c:115:6:gotoTrack	24	static
+../Core/Src/fdd_data.c:136:6:sendSectorSpi	8	static
+../Core/Src/fdd_data.c:145:6:sendSpiData_done	0	static
+../Core/Src/fdd_data.c:153:6:sendDataStatus	16	static
+../Core/Src/fdd_data.c:177:6:stopReadData	8	static
+../Core/Src/fdd_data.c:54:6:handleData	24	static
+../Core/Src/fdd_data.c:36:6:HAL_TIM_IC_CaptureCallback	8	static
+../Core/Src/fdd_data.c:43:6:HAL_TIM_IC_CaptureHalfCpltCallback	8	static
+../Core/Src/fdd_data.c:100:6:handleIndex	8	static
+../Core/Src/fdd_data.c:189:6:setMotor	8	static
+../Core/Src/fdd_data.c:163:6:beginReadData	8	static
+../Core/Src/fdd_data.c:193:6:enableDataMode	8	static
