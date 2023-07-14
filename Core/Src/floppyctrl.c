@@ -446,13 +446,14 @@ void setExtClkMode(uint32_t extClkPeriod){
 		HAL_GPIO_Init(EXTCLK_GPIO_Port, &GPIO_InitStruct);
 
 		masterclockfreq = extClkPeriod;
-		setPulseFreq(0);
+//		setPulseFreq(0);
 	}else{
 		// Reset to internal clock
 		masterclockfreq = HAL_RCC_GetHCLKFreq();
 		TIM_ClockConfigTypeDef sClockSourceConfig = {0};
 		sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
 	    HAL_TIM_ConfigClockSource(&STEPTIM, &sClockSourceConfig);
+//	    setPulseFreq(0);
 	}
 
 }
